@@ -20,6 +20,7 @@ This README provides comprehensive step-by-step instructions for installing ROS 
 Ensure your Ubuntu repositories allow "restricted," "universe," and "multiverse." You can follow the [Ubuntu guide](https://help.ubuntu.com/community/Repositories/Ubuntu) for instructions.
 
 ## Step 2: Set Up Your Sources List
+```bash
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 
