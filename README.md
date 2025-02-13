@@ -20,19 +20,13 @@ This README provides comprehensive step-by-step instructions for installing ROS 
 Ensure your Ubuntu repositories allow "restricted," "universe," and "multiverse." You can follow the [Ubuntu guide](https://help.ubuntu.com/community/Repositories/Ubuntu) for instructions.
 
 ## Step 2: Set Up Your Sources List
-
-Set up your computer to accept software from the ROS package repository:
-
-```bash
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
-## **Step 3: Set Up Your Keys**
 
-To set up your keys, follow these commands:
+## step 3 :  Set Up Your Keys
+sudo apt install curl # if you haven't already installed curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 
-1. First, ensure you have `curl` installed. If you haven't installed it yet, run:
 
-   ```bash
-   sudo apt install curl
 
 
