@@ -9,14 +9,14 @@ ROS (Robot Operating System) is an open-source framework that simplifies robotic
 - **Open-Source**: Freely available for modification and distribution.
 - **Middleware**: Facilitates communication between various software components.
 - **Optimized for Ubuntu**: Leverages Ubuntu's package management and community support.
-- 
-
+  
 # Installing ROS on Ubuntu 20.04
 
-This README provides comprehensive step-by-step instructions for installing ROS (Robot Operating System) on Ubuntu 20.04.
+This README outlines the steps I took to install ROS (Robot Operating System) on Ubuntu 20.04, serving as a guideline to help you with your installationhow to change
+
 ### Step 1: Open the Terminal
 I opened the terminal in my Ubuntu virtual machine to run the commands below to install ROS
-
+![Image](https://github.com/user-attachments/assets/58ad5344-e9cb-4f06-b6eb-278a83061e3c)
 
 ## Step 2: Set Up Your Sources List
 In the terminal, I run the following command:
